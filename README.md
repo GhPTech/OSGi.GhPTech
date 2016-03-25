@@ -1,4 +1,5 @@
 ![OSGi](http://ghptech.github.io/doc/OSGi_Logo.png)
+![OSGi](https://raw.githubusercontent.com/ghpopovici/OSGi.GhPTech/master/images/OSGi_Logo.png)
 
 The OSGi (Open Services Gateway initiative), is an open standards organization founded in March 1999 that originally specified and maintains the OSGi standard. 
 
