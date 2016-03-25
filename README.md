@@ -1,4 +1,5 @@
 ![OSGi](https://raw.githubusercontent.com/GhPTech/OSGi.GhPTech/master/images/OSGi_Logo.png)
+
 The OSGi (Open Services Gateway initiative), is an open standards organization founded in March 1999 that originally specified and maintains the OSGi standard. 
 
 OSGi's vision is the emergence of applications from assembling (dynamically) different reusable components that have no a-priori knowledge of each other.
