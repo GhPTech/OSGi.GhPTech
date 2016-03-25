@@ -1,4 +1,4 @@
-![OSGi](https://raw.githubusercontent.com/GhPTech/OSGi.GhPTech/master/images/OSGi_Logo.png)
+![OSGi](http://GhPTech.github.io/OSGi.GhP/images/OSGi_Logo.png)
 
 The OSGi (Open Services Gateway initiative), is an open standards organization founded in March 1999 that originally specified and maintains the OSGi standard. 
 
@@ -30,7 +30,7 @@ The framework is conceptually divided into the following areas:
 
 ##Bundles
 
-![OSGi system layering](https://raw.githubusercontent.com/GhPTech/OSGi.GhPTech/master/images/Osgi-system-layering.svg)
+![OSGi system layering](http://GhPTech.github.io/OSGi.GhP/images/Osgi-system-layering.svg)
 
 A bundle is a group of Java classes and additional resources equipped with a detailed manifest MANIFEST.MF file on all its contents, as well as additional services needed to give the included group of Java classes more sophisticated behaviors, to the extent of deeming the entire aggregate a component.
 Below is an example of a typical MANIFEST.MF file with OSGi Headers:
@@ -57,7 +57,7 @@ The meaning of the contents in the example is as follows:
 
 ##Life Cycle
 
-![OSGi system layering](https://raw.githubusercontent.com/GhPTech/OSGi.GhPTech/master/images/OSGi_Bundle_Life-Cycle.svg)
+![OSGi system layering](http://GhPTech.github.io/OSGi.GhP/images/OSGi_Bundle_Life-Cycle.svg)
 
 A Life Cycle layer adds bundles that can be dynamically installed, started, stopped, updated and uninstalled. Bundles rely on the module layer for class loading but add an API to manage the modules in run time. The life cycle layer introduces dynamics that are normally not part of an application. Extensive dependency mechanisms are used to assure the correct operation of the environment. Life cycle operations are fully protected with the security architecture.
 
@@ -122,7 +122,7 @@ A bundle can create an object and register it with the OSGi service registry und
 
 A bundle can register a service, it can get a service, and it can listen for a service to appear or disappear. Any number of bundles can register the same service type, and any number of bundles can get the same service. 
 
-![OSGi services](https://raw.githubusercontent.com/GhPTech/OSGi.GhPTech/master/images/OSGi_services.png)
+![OSGi services](http://GhPTech.github.io/OSGi.GhP/images/OSGi_services.png)
 
 Services are dynamic. This means that a bundle can decide to withdraw its service from the registry while other bundles are still using this service. Bundles using such a service must then ensure that they no longer use the service object and drop any references.
 
