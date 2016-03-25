@@ -19,7 +19,7 @@ Any framework that implements the OSGi standard provides an environment for the 
 
 The framework is conceptually divided into the following areas:
 
-![OSGi system layering](https://github.com/GhPTech/GhPTech.github.io/blob/master/doc/Osgi_framework.svg)
+![OSGi system layering](http://GhPTech.github.io/doc/Osgi_framework.svg)
 
 * **Bundles/Plug-ins**  are OSGi (normal JARs) components with extra manifest headers (made by developers).
 * **Services** layer connects bundles in a dynamic way by offering a publish-find-bind model for Plain Old Java Interfaces (POJI) or Plain Old Java Objects (POJO).
